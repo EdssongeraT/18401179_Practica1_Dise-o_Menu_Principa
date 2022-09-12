@@ -35,5 +35,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(otraVentana)
         }
 
+        binding.btnSalir.setOnClickListener {
+            this.finish()
+        }
+
     }
 }
